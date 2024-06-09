@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:#f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+   
+}
+
+.container {
+  
+     display: flex;
+     height: 70%;
+     width:70%;
+     box-shadow: 0 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.left-side {
+    flex: 1;
+}
+
+.left-side img {
+    width:100%;
+    height: auto;
+
+}
+
+.right-side {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+}
+
+.right-side h2 {
+  
+    color:#537B2F;
+    font-size: 40px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 7px;
+   
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border:none;
+    border-radius: 12px;
+    background-color:#537B2F ;
+    color: white;
+    font-weight:700;
+    font-size: 30px;
+   
+}
+
+
+
+.Forget-Password {
+    display: block;
+    margin-top: 50px;
+    color: #0866FF;
+    font-size: 25px;
+    text-decoration:underline;
+}
+
+    text-decoration: underline;
+
+
+
+
+.create-account {
+    margin-top: 70px;
+    border-radius:12px;
+    font-size: 30px;
+    font-weight: 600;
+    background-color:#0866FF 25%;
+    color:#0866FF;
+   
+} 
+
+
+
