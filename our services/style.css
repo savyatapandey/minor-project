@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;500;700&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Kaisei HarunoUmi", serif;
+}
+
+.navbar{
+    width:100%;
+    height:121px;
+    padding-top: 20px;
+    background-color: #365314;
+
+
+}
+.nav-heading{   
+    color:white;
+    font-weight: 700;
+    font-size:30px;
+    padding-left:   23px;
+}
+.navdiv{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-content{
+    list-style: none;
+    display:inline-block;
+    font-weight: 500;
+    margin: 15px;
+    font-size: 24px;
+}
+.nav-images{
+  
+   
+}
+
+li a{
+    text-decoration: none;
+    color:white;    
+    margin-right:30px ;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* service section */
+
+.second-section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color:#365314;
+    font-size:45px ;
+    margin-top: 40px;
+    gap:20px;
+    
+}
+
+.second-section-booking{
+    display: flex;
+    gap:8.938rem;
+    justify-content: center;
+}
+
+.second-section-book{
+    margin-top: 15px;
+    display: flex;
+    gap:8.938rem;
+
+
+}
+.salon-services{
+   width:330px;
+   height:400px;
+   background-color:black;
+}
+.salon-image{
+   display:flex;
+ 
+  
+} 
+
+.salon-card{
+    display: flex;
+    color:white;
+    flex-direction: column;
+    font-size: 30px;
+    align-items: center;
+    gap: 20px;
+}
+.salon-button{
+    display: flex;
+    background-color: #365314;
+    color:white;
+    font-size: 25px;
+}
+
+/* footer section */
+footer{
+    margin-top: 10%;
+    width:100%;
+    height:400px;
+    background-color:#000000;
+
+}
+.footer-section{
+    color:#365314;
+    font-size: 45px;
+    padding-top: 30px;
+    font-weight: 500;
+    margin: 5%;
+
+}
+.footer-paragraph
+{
+    text-align: center;
+}
+.footer-images{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    gap:50px;
+}
+.container{
+    
+    display:flex;
+    justify-content: space-between;
+    /* margin-top: 10%; */
+}
+.footer-content {
+    font-size: 18px;
+
+}
+.footer-heading{
+    font-size: 15px;
+    color:white;
+
+}
+
+.footer-heading-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-email{
+    display: flex;
+    gap:15px;
+    align-items: center;
+    justify-content: center;
+}
+.footer-logo{
+    display: flex;
+    gap:10px;
+}
+
+.footer-contact{
+    display: flex;
+    gap:15px;
+    align-items: center;
+}
+
+.list{
+    font-size: 15px;
+    list-style: none;
+}
+.form-line{
+    width:205%;
+    height:2px;
+    border:2px solid white;
+    margin:5%
+}
+
+.bottom-section{
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.footer-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+}
+.footer-line{
+    border: 1px solid #ffffff;
+    width:87rem;
+}
+
+.footer-bottom-info{
+    color:#3F6212;
+    font-size:18px;
+}
