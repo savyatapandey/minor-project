@@ -164,9 +164,6 @@ a:hover{
     font-size: 25px;
 }
 .explore-button{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
     width: 30%;
     background-color: #365314;
     margin-top: 30px;
@@ -175,6 +172,15 @@ a:hover{
     cursor: pointer;
     font-weight: 500;
     font-size: 25px;
+}
+
+.explore-button-link
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    color:white;
 }
 .third-section{
     margin-top:5%;
