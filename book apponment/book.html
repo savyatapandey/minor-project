@@ -1,48 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Book appoinment</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <h1>Make Appointment</h1>
-        <form class="appointment-form">
-            <div class="Details">
-                <label>
-                    <input type="text" name="name" placeholder="Name">
-                </label>
-            </div>
+      <h1>Make Appointment</h1>
+      <form class="appointment-form">
+        <div class="name-details">
+            <img class="appointment-icon" src="./svg/user.svg" alt="">
+          <input type="text" name="name" placeholder="Name" />
+        </div>
 
-            <label>
-                <input type="text" name="phone" placeholder="Phone Number">
-            </label>
+        <div class="number-details">
+          <img class="appointment-icon" src="./svg/phone.svg" alt="" />
+          <input type="text" name="phone" placeholder="Phone Number" />
+        </div>
 
-            <label>
-                <input type="date" name="date" placeholder="Date">
-            </label>
+        <div class="date-details">
+          <img class="appointment-icon" src="./svg/date.svg" alt="" />
+          <input type="text" name="date" placeholder="Date" />
+        </div>
 
-            <label>
-             <input type="time" name="time" placeholder="Time">
-            </label>
-           
-            <label>
-                 <input type="text" name="service" placeholder="Service You Need">
-            </label>
+        <div class ="time-details">
+          <img class="appointment-icon" src="./svg/time.svg" alt="" />
+          <input type="text" name="time" placeholder="Time" />
+        </div>
 
-            <label>
-                <textarea name="note" placeholder="Any Note For Us"></textarea>
-            </label>
+        <div class="service-details">
+          <img class="appointment-icon" src="./svg/service.svg" alt="" />
+          <input type="text" name="service" placeholder="Service You Need" />
+        </div>
 
-            <div class="buttons">
-                <button type="submit">Book Appointment</button>
-                <button type="button">Cancel</button>
-            </div>
-        </form>
+        <div class="note-details">
+          <img class="appointment-icon" src="./svg/note.svg" alt="" />
+          <textarea name="note" placeholder="Any Note For Us"></textarea>
+        </div>
+
+        <div class="buttons">
+          <button type="submit">Book Appointment</button>
+          <button type="button">Cancel</button>
+        </div>
+      </form>
     </div>
-</body>
-</html>
-</body>
+  </body>
 </html>
